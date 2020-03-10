@@ -24,5 +24,5 @@ document.getElementById('generate').addEventListener('click', function(e){
 document.getElementById('clear').addEventListener('click', function(e){
   
   document.querySelector('.output').innerHTML = '';
-
+  e.preventDefault();
 });
