@@ -20,3 +20,9 @@ document.getElementById('generate').addEventListener('click', function(e){
 
   e.preventDefault();
 });
+
+document.getElementById('clear').addEventListener('click', function(e){
+  
+  document.querySelector('.output').innerHTML = '';
+
+});
