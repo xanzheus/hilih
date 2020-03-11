@@ -3,7 +3,7 @@ document.getElementById('generate').addEventListener('click', function(e){
   let input = document.getElementById('input').value;
   if(input === '' || input === null){
     Swal.fire({
-      icon: 'error',
+      icon: 'warning',
       title: 'Oops...',
       text: 'Belum ada text yang di input!',
     })
