@@ -23,7 +23,7 @@ document.getElementById('generate').addEventListener('click', function(e){
     hasil = arr.join('');
     console.log(hasil);
     
-    document.querySelector('.output').innerHTML = `<h4>${hasil}</h4>`;
+    document.querySelector('.output').innerHTML = `<p>${hasil}</p>`;
   }
   e.preventDefault();
 });
