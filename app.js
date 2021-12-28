@@ -4,8 +4,8 @@ document.getElementById('generate').addEventListener('click', function(e){
   if(input === '' || input === null){
     Swal.fire({
       icon: 'warning',
-      title: 'Eitss...',
-      text: 'Belum ada text udin!',
+      title: 'Oops...',
+      text: 'Belum ada text yang di input!',
     })
   } else{
     let stringArr = input.split('');
